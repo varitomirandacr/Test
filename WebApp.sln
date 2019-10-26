@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{BD749EAC-BC0A-46CF-98C7-118589EDECFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{ABD0C834-B7FE-46F1-803F-2BC3D322BCC8}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{FCB4D1CC-E52B-4B7E-B437-92A62793DA71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD749EAC-BC0A-46CF-98C7-118589EDECFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD749EAC-BC0A-46CF-98C7-118589EDECFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD749EAC-BC0A-46CF-98C7-118589EDECFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD749EAC-BC0A-46CF-98C7-118589EDECFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABD0C834-B7FE-46F1-803F-2BC3D322BCC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABD0C834-B7FE-46F1-803F-2BC3D322BCC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABD0C834-B7FE-46F1-803F-2BC3D322BCC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABD0C834-B7FE-46F1-803F-2BC3D322BCC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCB4D1CC-E52B-4B7E-B437-92A62793DA71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCB4D1CC-E52B-4B7E-B437-92A62793DA71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCB4D1CC-E52B-4B7E-B437-92A62793DA71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCB4D1CC-E52B-4B7E-B437-92A62793DA71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B21A8463-32AF-4CC9-ACF7-BFAEE70F5422}
+	EndGlobalSection
+EndGlobal
